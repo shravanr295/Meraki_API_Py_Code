@@ -42,5 +42,5 @@ for serial, name in device_names.items():
     try:
         dashboard.devices.updateDevice(serial, name=name)
         print(f"✅ Renamed device {serial} to '{name}'")
-    except Exception as e:
+    except Exception as e: #faskjfashfalfjas
         print(f"❌ Failed to rename device {serial}: {e}")
